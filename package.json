@@ -4,7 +4,11 @@
   "description": "一个脚手架",
   "main": "index.js",
   "bin": {
-    "totoro": "bin/totoro"
+    "totoro": "bin/totoro",
+    "totoro-add": "bin/totoro-add",
+    "totoro-delete": "bin/totoro-delete",
+    "totoro-list": "bin/totoro-list",
+    "totoro-init": "bin/totoro-init"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
