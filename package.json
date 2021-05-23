@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/dragonishare/totoro-cli/issues"
   },
-  "homepage": "https://github.com/dragonishare/totoro-cli#readme"
+  "homepage": "https://github.com/dragonishare/totoro-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.0",
+    "ora": "^5.4.0"
+  }
 }
