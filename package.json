@@ -1,0 +1,19 @@
+{
+  "name": "totoro-cli",
+  "version": "1.0.0",
+  "description": "一个脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragonishare/totoro-cli.git"
+  },
+  "author": "dragonishare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragonishare/totoro-cli/issues"
+  },
+  "homepage": "https://github.com/dragonishare/totoro-cli#readme"
+}
