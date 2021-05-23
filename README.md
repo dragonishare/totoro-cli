@@ -72,3 +72,10 @@ download(repository, destination, options, callback)
 ```
 
 其中 repository 是远程仓库地址；destination 是存放下载的文件路径，也可以直接写文件名，默认就是当前目录；options 是一些选项，比如 { clone：boolean } 表示用 http download 还是 git clone 的形式下载。
+
+## 目录结构
+
+### bin
+
+在 bin 文件夹下放整个脚手架的入口文件，这里是文件`totoro`（**没有后缀名**）;
+注意开头的 `#!/usr/bin/env node` 这个语句必须加上，主要是为了让系统看到这一行的时候，会沿着该路径去查找 node 并执行，主要是为了兼容 Mac ，确保可执行。
