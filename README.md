@@ -79,3 +79,14 @@ download(repository, destination, options, callback)
 
 在 bin 文件夹下放整个脚手架的入口文件，这里是文件`totoro`（**没有后缀名**）;
 注意开头的 `#!/usr/bin/env node` 这个语句必须加上，主要是为了让系统看到这一行的时候，会沿着该路径去查找 node 并执行，主要是为了兼容 Mac ，确保可执行。
+
+在 `package.json` 里配置 `bin`：
+
+```
+// bin 用来指定每个命令所对应的可执行文件的位置
+"bin": {
+    "totoro": "bin/totoro"
+}
+```
+
+本地开发时，通过在根目录下执行 `npm link`（就是把命令挂载到全局），这样我们每次只要输入 `totoro`，就可以直接运行了
